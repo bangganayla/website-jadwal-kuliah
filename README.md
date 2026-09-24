@@ -1,1 +1,2 @@
-# website-jadwal-kuliah
+Kode tersebut merupakan website jadwal kuliah Informatika yang terdiri dari HTML, CSS, dan JavaScript. HTML digunakan untuk membuat struktur halaman seperti navbar, halaman utama, jadwal kuliah, informasi kuliah, dan footer. CSS digunakan untuk mengatur tampilan website, seperti warna, ukuran, posisi, card jadwal, tampilan responsif, serta dark mode dan light mode. JavaScript digunakan untuk menyimpan data jadwal dalam bentuk array, menampilkan jadwal secara otomatis berdasarkan hari, membuat fitur filter jadwal Senin–Jumat, serta mengatur tombol perubahan tema. Jadi, secara keseluruhan kode ini membuat website jadwal kuliah yang interaktif, rapi, responsif, dan mudah digunakan.
+![Preview Tampilan](SreenshotWEB.png)
