@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jadwal Kuliah Informatika</title>
+
+    <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Kuliah<span>.</span>
+            </div>
+
+
+            <ul class="nav-menu">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#jadwal">Jadwal</a>
+                </li>
+
+                <li>
+                    <a href="#info">Info</a>
+                </li>
+
+            </ul>
+
+
+            <button id="themeBtn">
+                ☀
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                INFORMATIC STUDENT
+            </p>
+
+
+            <h1>
+                Jadwal Kuliah
+                <span>Informatika</span>
+            </h1>
+
+
+            <p class="description">
+                Website sederhana untuk melihat jadwal
+                perkuliahan dengan mudah dan cepat.
+            </p>
+
+
+            <a href="#jadwal" class="button">
+                Lihat Jadwal
+            </a>
+
+        </div>
+
+
+
+        <div class="calendar-card">
+
+            <div class="calendar-icon">
+                📅
+            </div>
+
+
+            <h2>
+                Semester 3
+            </h2>
+
+
+            <p>
+                Tahun Akademik 2026/2027
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= JADWAL ================= -->
+
+    <section class="section" id="jadwal">
+
+        <div class="container">
+
+
+            <div class="section-title">
+
+                <p>
+                    MY SCHEDULE
+                </p>
+
+                <h2>
+                    Jadwal Perkuliahan
+                </h2>
+
+            </div>
+
+
+
+            <!-- ================= FILTER ================= -->
+
+            <div class="filter">
+
+                <button
+                    class="filter-btn active"
+                    data-day="Semua">
+
+                    Semua
+
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    data-day="Senin">
+
+                    Senin
+
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    data-day="Selasa">
+
+                    Selasa
+
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    data-day="Rabu">
+
+                    Rabu
+
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    data-day="Kamis">
+
+                    Kamis
+
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    data-day="Jumat">
+
+                    Jumat
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ================= DAFTAR JADWAL ================= -->
+
+            <div
+                class="schedule-list"
+                id="scheduleList">
+
+                <!-- Jadwal dibuat oleh JavaScript -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= INFO ================= -->
+
+    <section
+        class="section info-section"
+        id="info">
+
+
+        <div class="container">
+
+
+            <div class="section-title">
+
+                <p>
+                    INFORMATION
+                </p>
+
+                <h2>
+                    Informasi Kuliah
+                </h2>
+
+            </div>
+
+
+
+            <div class="info-grid">
+
+
+                <div class="info-card">
+
+                    <h3>
+                        🎓 Program Studi
+                    </h3>
+
+                    <p>
+                        Informatika
+                    </p>
+
+                </div>
+
+
+
+                <div class="info-card">
+
+                    <h3>
+                        📚 Semester
+                    </h3>
+
+                    <p>
+                        Semester 5
+                    </p>
+
+                </div>
+
+
+
+                <div class="info-card">
+
+                    <h3>
+                        🏫 Tahun Akademik
+                    </h3>
+
+                    <p>
+                        2026 / 2027
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Jadwal Kuliah Informatika
+        </p>
+
+
+        <a href="#home">
+            ↑ Kembali ke atas
+        </a>
+
+    </footer>
+
+
+
+    <!-- Menghubungkan JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
